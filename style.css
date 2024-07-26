@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.banner {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  background-image: url('./images/web-1012469_1280.webp');
+  background-size: cover;
+  text-align: left;
+  padding: 180px 0;
+  padding-left: 25%;
+}
+
+.banner h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.banner h2, .banner h1 {
+  color: #c5c5c5;
+}
+
+.container {
+  width: 50%;
+  margin: 50px auto;
+  text-align: justify;
+}
+
+.container h2, .container h3 {
+  color: #A0A0A0;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.container h2, .container h3, .container p, .container a {
+  margin-bottom: 20px;
+}
+
+.container p {
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container a{
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-size: 25px;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+.container a:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+@media(max-width: 1200px) {
+
+  .banner {
+    text-align: center;
+    padding: 200px 0 0 0;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+  }
+
+  .banner h2 {
+    font-size: 20px;
+  }
+}
